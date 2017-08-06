@@ -14,11 +14,10 @@ end
 class Rpm < Formula
   desc "Standard unix software packaging tool"
   homepage "http://www.rpm5.org/"
-  url "http://rpm5.org/files/rpm/rpm-5.4/rpm-5.4.15-0.20140824.src.rpm",
+  url "http://rpm5.org/files/rpm/rpm-5.4/rpm-5.4.16-0.20160420.src.rpm",
       :using => RpmDownloadStrategy
-  version "5.4.15"
-  sha256 "d4ae5e9ed5df8ab9931b660f491418d20ab5c4d72eb17ed9055b80b71ef6c4ee"
-  revision 3
+  version "5.4.16"
+  sha256 "0a7ec6e27a2e2a80e409bd5d774db66a847de141ebb1c3f5ae4fc42ce1a7d1b9"
 
   bottle do
     sha256 "3e4d2a304cf1cc10cb12a1c57474850c2715c279522e62ea3310c66ba510ad1e" => :sierra
